@@ -1,0 +1,32 @@
+*{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.maquina{
+    
+    font-family: monospace;
+    width: 8ch;
+    overflow: hidden;
+    white-space: no-wrap;
+    display:block;
+    border-right: 3px solid;
+    animation: typewriter 5s steps(8) infinite, blinking-cursor 0.8s infinite;
+    animation-fill-mode: forwards;
+        
+}
+@keyframes typewriter {
+    0% { width:0 }
+    25% { width: 70% }
+    48% { width: 100% }
+    50% { width: 100% }
+    55% { width: 100% }
+    75% { width: 70%; }
+    85% { width: 30%; }
+    100% { width: 0; }
+  }
+  
+  @keyframes blinking-cursor {
+    from { border-color: transparent }
+    to { border-color: #f9d566 }
+  }
+
+
