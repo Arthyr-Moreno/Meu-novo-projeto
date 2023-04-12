@@ -9,8 +9,9 @@
     white-space: no-wrap;
     display:block;
     border-right: 3px solid;
-    animation: typewriter 5s steps(8) infinite, blinking-cursor 0.8s infinite;
+    animation: typewriter 5s steps(8) infinite alternate-reverse, blinking-cursor 0.8s infinite ;
     animation-fill-mode: forwards;
+    
         
 }
 @keyframes typewriter {
